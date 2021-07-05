@@ -1,0 +1,8 @@
+@startuml
+class TodoLis{
+main()
+start()
+}
+class TodoLisController{}
+
+@enduml

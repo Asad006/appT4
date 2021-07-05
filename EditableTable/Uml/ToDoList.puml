@@ -1,0 +1,15 @@
+@startuml
+class TodolistTableManager{
++ sortTasks()
++ removeTask()
++ addTAsk()
++ editTaskTitle()
++ displayUncompletedTasks()
++ displayCompletedTasks()
++ SaveItemsOfTask()
+}
+
+class ToDoListController {}
+class Task{}
+class ToDoListApp{}
+@enduml
