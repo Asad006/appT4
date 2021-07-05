@@ -1,5 +1,8 @@
-package UCF.Assignments;
-
+package ucf.assignments;
+/*
+ *  UCF COP3330 Summer 2021 Assignment 4 Solution
+ *  Copyright 2021 Asad merouani
+ */
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

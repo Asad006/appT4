@@ -1,23 +1,16 @@
-package UCF.Assignments;
-
-import javafx.beans.property.SimpleStringProperty;
+package ucf.assignments;
+/*
+ *  UCF COP3330 Summer 2021 Assignment 4 Solution
+ *  Copyright 2021 Asad merouani
+ */
 
 public class ToDoTask {
-    private final SimpleStringProperty toDoTitle = new SimpleStringProperty("");
+    /// toDoTitle : SimpleStringProperty
 
-    public ToDoTask(String toDoTitle) {
-        setToDoTitle(toDoTitle);
-    }
+    // Constructor
+    // ToDoTask(String toDoTitle)
 
-    public String getToDoTitle() {
-        return toDoTitle.get();
-    }
-
-    public SimpleStringProperty toDoTitleProperty() {
-        return toDoTitle;
-    }
-
-    public void setToDoTitle(String toDoTitle) {
-        this.toDoTitle.set(toDoTitle);
-    }
+    // Methods
+    //public String getToDoTitle()
+    //public void setToDoTitle(String toDoTitle)
 }
